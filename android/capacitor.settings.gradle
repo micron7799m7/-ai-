@@ -1,0 +1,9 @@
+include ':capacitor-android'
+def localCapacitor = new File(settingsDir, 'capacitor-android')
+def nodeCapacitor = new File(settingsDir, '../node_modules/@capacitor/android/capacitor')
+
+if (localCapacitor.exists()) {
+    project(':capacitor-android').projectDir = localCapacitor
+} else if (nodeCapacitor.exists()) {
+    project(':capacitor-android').projectDir = nodeCapacitor
+}

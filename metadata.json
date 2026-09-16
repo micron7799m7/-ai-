@@ -1,0 +1,6 @@
+{
+  "name": "사장님 AI 홍보실",
+  "description": "대한민국 자영업자·소상공인을 위한 원스톱 AI 홍보물 및 전단지·SNS 마케팅 제작 서비스",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

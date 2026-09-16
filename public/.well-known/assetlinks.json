@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bossai.promotion",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7C:02:CD:EA:9C:E1:16:40:85:47:CE:7E:70:70:E8:B3:E8:B1:56:05:99:04:96:39:D5:1B:4F:02:6B"
+      ]
+    }
+  }
+]

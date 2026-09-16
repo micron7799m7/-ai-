@@ -1,0 +1,12 @@
+{
+	"appId": "com.bossai.promotion",
+	"appName": "사장님 AI 홍보실",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https",
+		"cleartext": true
+	},
+	"android": {
+		"allowMixedContent": true
+	}
+}
